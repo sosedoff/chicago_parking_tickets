@@ -10,6 +10,10 @@ I forget to pay parking tickets.
 
 Yes.
 
+## How does it work?
+
+Payment automation is done with [Capybara](https://github.com/teamcapybara/capybara)
+
 ## Gotchas
 
 Can't use the same CC more than once a day.
