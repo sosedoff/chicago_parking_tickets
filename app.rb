@@ -16,7 +16,7 @@ before do
   content_type :json, encoding: "utf8"
 end
 
-get "/tickets" do
+post "/tickets" do
   name  = params[:name].to_s.strip
   plate = params[:plate].to_s.strip
   state = params[:state] || "IL"
